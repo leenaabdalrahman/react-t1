@@ -1,0 +1,53 @@
+.fixed-image {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 30px;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+}
+h5{
+  color: orangered;
+}
+.pizza{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid black;
+  border-radius: 40px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.row{
+  display: flex;
+  flex-direction:row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: stretch;
+}
+.pizza h2{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.title {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100px; /* Ensure the title div has a height */
+  text-align: center;
+  width: 100%;
+}
